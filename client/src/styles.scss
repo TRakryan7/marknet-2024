@@ -42,3 +42,17 @@ a{
 .mdc-notched-outline__notch{
   border-right-style: none;
 }
+
+.mat-mdc-snack-bar-container.snack-error{
+  --mdc-snackbar-container-color: #ff0000;
+  --mat-snack-bar-button-color: #fff;
+  --mdc-snackbar-supporting-text-color: #fff;
+
+}
+
+.mat-mdc-snack-bar-container.snack-success{
+  --mdc-snackbar-container-color: #00ff00;
+  --mat-snack-bar-button-color: #fff;
+  --mdc-snackbar-supporting-text-color: #fff;
+
+}
